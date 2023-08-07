@@ -59,3 +59,9 @@ const port = 4000;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
+
+/* open command prompt go to the required directory 
+  enter npm install express
+  the enter node calc.js (server get started)
+  enter the url
+  */
