@@ -1,6 +1,13 @@
-In this code, we're reading a file synchronously using the fs.readFileSync() function, and then performing some other synchronous operations. If an error occurs during the file read or any other synchronous operation, it will be caught in the catch block.
+"If you run rfsync.js"
+	
+	In this code, we're reading a file synchronously using the fs.readFileSync() function, and then performing some other synchronous operations. If an error occurs during the file read or any other synchronous operation, it will be caught in the catch block.
 
 Certainly! The `for` loop in the code I provided is used to perform a series of synchronous operations in a repetitive manner. 
 
 After the loop completes, the program continues to execute the remaining synchronous code.
 
+
+
+"If you run txtrfsync.js"
+
+	The function reads the configuration, checks if the "filename" key is present, and then uses fs.readFileSync() to read and log the contents of the specified file (sample.txt in this case).
